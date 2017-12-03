@@ -1,0 +1,23 @@
+********** To install Custom Service *****************************
+
+1) Create a Directory in c drive C:\CustomService
+
+2) Copy content of service at  CustomReminderService\bin\Debug\
+   to the folder above - double check you should have file CutomWindowService.exe
+
+3) copy both bat file from [Your directory location ]\CustomServiceInstaller into same directory where
+   service exe reside.
+
+4) Open command prompt as administrator and change directory to C:\CustomService\Installer.bat. Enter the following credentials when prompted: 
+
+                - username  - domain\username
+                - password  - password
+
+5) see the log message on console.
+
+-------------------------------------------------------------------------------
+********** To Un-install Cutom Service *****************************
+
+Open command prompt as administrator and change directory to C:\CustomService\Uninstaller.bat
+
+see the log msg for sucess
